@@ -4,7 +4,7 @@ version = "1.1.4"
 description = "An asynchronous module and API that allows you to connect to your bot the generation of Genshin character cards from the Enka.Network website."
 authors = ["None"]
 
-readme = 'README.md'  # Markdown files are supported
+readme = "README.md"
 
 repository = "https://github.com/DEViantUA/Enka.GenerationBanner"
 homepage = "https://github.com/DEViantUA/EnkaNetworkCard/wiki/Dokumentation-enkanetworkcard"
@@ -14,8 +14,9 @@ python = "^3.7"
 Pillow = "^10.0.1"
 "enkanetwork.py" = "^1.4.0"
 cachetools = "^5.2.0"
-asyncache  = "^0.3.1"
-
+asyncache = "^0.3.1"
+aiofiles = "^23.2.1"
+numpy = ">=1.26.4,<3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
